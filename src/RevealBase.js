@@ -90,7 +90,7 @@ class RevealBase extends React.Component {
        : void 0,
       style: {
         opacity: (!this.isOn||props.ssrReveal) && props.outEffect ? 0 : void 0,
-        //visibility: props.when  ? 'visible' : 'hidden',
+        visibility: props.when  ? 'visible' : 'hidden',
       },
     };
     this.savedChild = false;
